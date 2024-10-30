@@ -1,0 +1,241 @@
+/* ComparePress style rules*/
+
+/* The main div that surrouns all the content*/
+#CP_mobiles_results{ margin-bottom:20px;}
+#CP_mobiles_results td, #CP_mobiles_results th, #CP_mobiles_results img{
+    background-color:#FFF;
+    border:none;
+}
+#handset_detail { height:auto; width:100%; margin-bottom:20px; clear:both;}
+
+.CP_mobiles_results_Imageright{
+    text-align: center;
+    float:right;
+    margin-left:10px;
+    padding:0;
+    clear:both;
+}
+/*For the handset display pages */
+.CP_mobiles_handset_box{
+    width:85px;
+    float:left;
+    text-align:center;
+    padding:5px;
+    height:125px;
+    font-size:10px;
+    float:left;
+}
+/*For the handset feature boxes */
+#handset_features li {
+	float: left;
+	padding: 5px!important;
+	border: solid 1px #ccc;
+	margin-right: 5px;
+	margin-bottom: 5px!important;
+	list-style: none!important;}
+
+.CP-clearfix{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+
+/*For the widgets */
+#CP_mobiles_top_phones_widget a, #CP_mobiles_latest_phones_widget a{ text-decoration:none;	}
+#CP_mobiles_top_phones_widget img, #CP_mobiles_latest_phones_widget img{ border:none;}
+#CP_mobiles_top_phones_widget{height:auto; overflow:hidden; padding:8px; }
+#CP_mobiles_latest_phones_widget{height:auto; overflow:hidden; padding:8px; }
+.CP_mobiles_top_phones_widget_hs a, .CP_mobiles_latest_phones_widget_hs a{ font-size: 12px; line-height:14px;}
+.CP_mobiles_top_phones_widget_hs, .CP_mobiles_latest_phones_widget_hs {
+    float:left; width:74px; height:165px; text-align:center;
+}
+.widget_ComparePressSearchPhones{padding:8px;}
+
+/*#results {border:1px solid #ccccff;}*/
+#results tbody tr{border:1px solid #ccccff;}   
+#results tbody tr:hover{border:2px solid #2E8C39;}
+
+.CP_mobiles_results_TH th{
+    text-align:center;
+}
+
+/* The deal result columns */
+.CP_mobiles_results_network{
+    text-align:center;
+}
+/*.CP_mobiles_results_network img{max-width: 100%; height: auto; }
+.CP_mobiles_results_buyimg{max-width: 100%; height: auto; }*/
+
+.CP_mobiles_results_minutes{
+    text-align:center;
+}
+.CP_mobiles_results_texts{
+    text-align:center;
+}
+.CP_mobiles_results_information{
+    text-align:left; width: 35%;
+}
+.CP_mobiles_results_permonth{
+    text-align:center;
+}
+.CP_mobiles_results_buy{    
+    text-align: center;
+    width:20%;
+    min-width:45px;
+}
+.ComparePess_bigValue{
+    font-size:16px;
+    font-weight:bold;
+}
+.ComparePess_bigText{
+    font-size:12px;
+}
+
+.CP_mobiles_handsets_only img{ border:none;}
+.CP_mobiles_handsets_only a {text-decoration:none;}
+
+.credit{ text-align: right; padding:10px;}
+
+.inputbox{ border:none;}
+select {width:100%; margin-bottom:5px; }
+.filter label {position: relative;font-size: 14px;line-height: 1;padding: .5em 0 0 0;margin: 0;display:inline;}
+
+/* Search tabs on the deals pages*/
+#CP_mobiles_search_tabs {
+    position:relative;
+    float:left;
+    width:100%;
+    padding:0 0 0.5em 0;
+    margin:0;
+    list-style:none;
+    line-height:1em;
+}
+
+#CP_mobiles_search_tabs li {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#CP_mobiles_search_tabs a {
+    display:block;
+    color:#444;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:13px;
+    background:#ddd;
+    margin:0;
+    padding:0.25em 1em 0.25em 1em;
+    border-left:1px solid #fff;
+    border-top:1px solid #fff;
+    border-right:1px solid #aaa;
+}
+
+#CP_mobiles_search_tabs a:hover,
+#CP_mobiles_search_tabs a:active,
+#CP_mobiles_search_tabs a.here:link,
+#CP_mobiles_search_tabs a.here:visited {
+    background:#bbb;
+}
+
+#CP_mobiles_search_tabs a.here:link,
+#CP_mobiles_search_tabs a.here:visited {
+    position:relative;
+    z-index:102;
+}
+
+/*subnav*/
+#CP_mobiles_search_tabs UL fieldset{
+    margin:-15px 0 0 0;
+    padding:0;
+    border:none;
+}
+
+#CP_mobiles_search_tabs UL label{
+    display:none;
+}
+
+#CP_mobiles_search_tabs UL select{
+    margin: 0 10px 0 -12px;
+    padding:0;
+    width:95px;
+}
+
+#CP_mobiles_search_tabs UL {
+    position:absolute;
+    left:0;
+    top:1.5em;
+    float:left;
+    background:#bbb;
+    margin:0;
+    padding:0.25em 0.25em 0.25em 1em;
+    list-style:none;
+    border-top:1px solid #fff;
+}
+
+#CP_mobiles_search_tabs ul li {
+    float:left;
+    display:block;
+    margin-top:1px;
+    margin-right:5px;
+}
+
+#CP_mobiles_search_tabs ul a {
+    background:#bbb;
+    color:#fff;
+    display:inline;
+    margin:0;
+    padding:0 1em;
+    border:0
+}
+
+#CP_mobiles_search_tabs UL A:hover,
+#CP_mobiles_search_tabs UL A:active,
+#CP_mobiles_search_tabs UL A.here:link,
+#CP_mobiles_search_tabs UL A.here:visited {color:#444;}
+
+#CP_mobiles_search_tabs UL .CP_mobiles_search_tabs_submitbutton{
+    border:none;
+    height:17px;
+    padding: 0;
+    margin: 17px 0 0 -10px;
+    position:relative;
+}
+
+.payg_container {
+    background: #ffffff;	
+    float:left;
+    margin: 2px;
+    padding: 2px 9px 1px 0px;
+    width:125px;  
+    border: #ccc 1px solid;
+    text-align:center;
+    min-height: 140px;
+    height:auto; 
+    overflow:hidden;
+}
+
+.payg_phone_container {
+    background: #ffffff;	
+    margin: 0 5px 0 0;
+    padding: 0 0 0 0;
+    width: 45px;
+    height: 90px;
+    float: left;
+    clear:both; 
+    text-align:center;            
+}
+.payg_container p {
+    font-size:0.9em; 
+    line-height:1em; 
+    text-align:center;
+    margin-bottom: 5px;
+}
+.CP-prices{
+    font-size:1.2em; 
+    font-weight:bold;    
+    padding-bottom: 0px;    
+}
+
+.payg_phone_container img {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: auto;
+    text-align: center;
+}

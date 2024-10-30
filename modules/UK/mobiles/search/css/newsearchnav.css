@@ -1,0 +1,75 @@
+ul#CP_mobiles_search_tabs {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ul#CP_mobiles_search_tabs li {
+    list-style-type:none !important;
+}
+ul#CP_mobiles_search_tabs li a {
+    font-family: arial;
+    font-size: 13px !important;
+}
+#newnavcontrols {
+    clear: both;
+    padding: 20px 20px 0 20px;
+    border:1px solid #999999;
+    height:130px;
+    background-color: #DEDEDE;
+}
+.nav-slider {
+    float: left;
+}
+.newnavpanel {
+    width: 20%;
+    float: left;
+}
+.newnavpanelwide {
+    width: 40%;
+    float: left;
+}
+.newnavpanelwide label .ui-button {
+    padding: 0.4em;
+}
+.slider-label {
+    padding: 0 0 0 1.5em;
+    font-weight: bold;
+    font-family: arial;
+    color: #2c4359;
+}
+.radio-label {
+    padding: 0 4px 0 0;
+    font-weight: bold;
+    font-family: arial;
+    color: #777;
+    float: left;
+    font-size: 11px;
+    width: 25px;
+}
+.radiobutton label {
+    display: inline-block;
+    float: left;
+}
+.slider-value {
+    padding: 20px 0 0 1.5em;
+    color: #FD4141;
+    font-weight: bold;
+}
+.slider-pass {
+    display: none;
+}
+.ui-state-active .span {
+    background-color: #ccf;
+}
+.no_handset_search td {
+    padding: 9px !important;
+}
+#sort_form .ui-button, #data_form .ui-button, .radio-label {
+    margin: 0 0 16px 0;
+}
+.selectedTab {
+    background-color: #ddd !important;
+}
+.normalTab {
+    background-color: #bbb !important;
+}

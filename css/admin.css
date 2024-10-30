@@ -1,0 +1,39 @@
+/*  Document   : admin area styles
+    Created on : 07-July-2010
+    Author     : Andy @ http://comparepress.com
+    Description: Adds some custom styling to the ComparePress admin area
+*/
+form fieldset.ComparePressFieldSet {
+    border-width:1px;
+    border-style:solid;
+    border-color:#21759B;
+    font-size:12px;
+    margin:20px 0px 20px 0px;
+    width:350px;
+    position:relative;
+    display:block;
+    padding: 0px 10px 10px 10px;
+    width:96%;
+}
+form fieldset.ComparePressFieldSet legend {
+    border-width:1px;
+    border-style:solid;
+    border-color:#7c5b47;
+    padding:2px 5px;
+    margin:0px 0px 10px 0px;
+    position:relative;
+    top: -12px;
+    font-size: 16px;
+    font-weight: str bold;
+}
+.cp-adminnav { padding: 20px 10px 0 10px;}
+.cp-adminnav ul { list-style: none;}
+.cp-adminnav li { background-color: #ddd; display: inline; border-right: solid white 5px; padding: 6px 6px 5px 6px; height:100%; margin: 0 0 6px 0; color: #21759B;}
+.cp-adminnav a { text-decoration: none; color: #21759B;}
+.cp-adminnav a:hover {text-decoration: underline; }
+.cp-adminnav li.selected { background-color: #21759B; color: #fff; font-weight: bold;}
+.cp-adminpage { padding: 0 10px 10px 10px; margin: 4px 25px 10px 10px; border: 1px solid #21759B; font-size: 0.9em; overflow:hidden;}
+.cp-adminpage h1 { font-size: 1.5em;}
+.cp-adminpage h2 { font-size: 1.25em;}
+.cp-adminpage h3 { font-size: 1em;}
+.cp-adminpage { font-size: 1em;}
